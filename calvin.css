@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header-area{
+    padding-left: 1em;
+    align-items: center;
+    height: 6em;
+    background-color: blueviolet;
+}
+.icon-image{
+    
+    width: 5em;
+    float: left;
+}
+.head-name{
+    padding-top: 1em;
+    font-size: 2em;
+    align-items: center;
+    color: #fff;
+    float: left;
+
+}
