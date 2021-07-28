@@ -1,20 +1,51 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0rem;
+    padding: 0rem;
 }
-.header-area{
-    padding-left: 0em;
-    align-items: center;
 
+.header-area{
+    padding-left: 0rem;
+    align-items: center;
 }
+
 .icon-image{
     
-    width: 5em;
+    width: 5rem;
 }
+
 .head-name{
-    padding-top: .7em;
-    font-size: 2em;
+    padding-top: .7rem;
+    font-size: 2rem;
     text-align: left;
     align-items: center;
     color: #fff;
 }
+
+.profile-image{
+    padding: 3rem;
+    align-items: center;
+    border-radius: 100rem;
+}
+
+.section1{
+    background: linear-gradient(90deg, rgb(0, 0, 1) 0%, rgb(1, 45, 128) 100%);
+    color: #fff;
+}
+
+@font-face { 
+	font-family: "NotoSansMalayalam-Regular"; 
+	src: url('source/NotoSansMalayalam-Regular.ttf'); 
+}
+
+.quote-m{
+    font-family: "NotoSansMalayalam-Regular";
+    padding-right: 1rem;
+    text-align: center;
+}
+
+.quote-e{
+    font-weight: 400;
+    padding-right: 1rem;
+    text-align: center;
+}
+
