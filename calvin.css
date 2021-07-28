@@ -1,10 +1,13 @@
 *{
     margin: 0em;
     padding: 0em;
+
+}
+body{
     width: 100%;
 }
-
 .header-area{
+    width: 100%;
     padding-left: 0rem;
     align-items: center;
     background-color: hsl(249, 100%, 6%);
@@ -30,6 +33,7 @@
 }
 
 .section1{
+    width: 100%;
     background: linear-gradient(90deg, rgb(0, 0, 1) 0%, rgb(1, 45, 128) 100%);
     color: #fff;
 }
@@ -41,13 +45,11 @@
 
 .quote-m{
     font-family: "NotoSansMalayalam-Regular";
-    padding-right: 1rem;
     text-align: center;
 }
 
 .quote-e{
     font-weight: 400;
-    padding-right: 1rem;
     text-align: center;
 }
 
