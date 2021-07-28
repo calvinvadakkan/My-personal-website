@@ -3,17 +3,18 @@
     padding: 0px;
 }
 .header-area{
-    padding-left: 1em;
+    padding-left: 0em;
     align-items: center;
-    height: 6em;
+
 }
 .icon-image{
     
     width: 5em;
 }
 .head-name{
-    padding-top: 1em;
+    padding-top: .7em;
     font-size: 2em;
+    text-align: left;
     align-items: center;
     color: #fff;
 }
