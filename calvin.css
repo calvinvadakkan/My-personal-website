@@ -1,11 +1,13 @@
 *{
-    margin: 0rem;
-    padding: 0rem;
+    margin: 0em;
+    padding: 0em;
+    width: 100%;
 }
 
 .header-area{
     padding-left: 0rem;
     align-items: center;
+    background-color: hsl(249, 100%, 6%);
 }
 
 .icon-image{
