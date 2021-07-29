@@ -8,9 +8,12 @@ body{
 }
 .header-area{
     width: 100%;
+    height: 7rem;
     padding-left: 0rem;
     align-items: center;
     background-color: hsl(249, 100%, 6%);
+    position: fixed;
+    z-index: 1;
 }
 
 .icon-image{
@@ -34,6 +37,7 @@ body{
 
 .section1{
     width: 100%;
+    padding-top: 7rem;
     background: linear-gradient(90deg, rgb(0, 0, 1) 0%, rgb(1, 45, 128) 100%);
     color: #fff;
 }
@@ -46,10 +50,59 @@ body{
 .quote-m{
     font-family: "NotoSansMalayalam-Regular";
     text-align: center;
+    font-size: 1.5rem;}
+.quote-ma{
+    font-family: "NotoSansMalayalam-Regular";
+    text-align: end;
+    font-size: 1rem;
 }
 
 .quote-e{
     font-weight: 400;
     text-align: center;
+    font-size: 1.5rem;
+}
+.quote-ea{
+    font-weight: 400;
+    text-align: end;
+    font-size: 1rem;
 }
 
+.section2{
+    width: 100%;
+    background: linear-gradient(135deg, rgb(0, 0, 1) 0%, rgb(1, 45, 128) 100%);
+    color: rgb(148, 118, 118);
+}
+
+.writings{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-weight: 600;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+
+}
+
+
+.malayalam-card{
+    font-family: "NotoSansMalayalam-Regular";
+    text-decoration: none;
+    color: #fff;
+
+}
+.malayalam-card:hover{
+    color: yellow;
+}
+
+.card-header{
+    text-align: center;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-text{
+    font-size: 0.8rem;
+}
